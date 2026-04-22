@@ -3,31 +3,31 @@ import { motion } from "framer-motion"
 export function CaseStudiesSection() {
   const caseStudies = [
     {
-      client: "Stellar Analytics",
-      project: "Редизайн лендинга SaaS",
-      metric: "Рост конверсий на 127%",
-      description: "Полный редизайн главного лендинга продукта с A/B-тестированием и оптимизацией конверсий.",
+      client: "Интернет-магазин электроники",
+      project: "Короб 4-х клапанный на заказ",
+      metric: "50 000 коробов в месяц",
+      description: "Разработали индивидуальный короб для защиты хрупкой техники при доставке. Трёхслойный гофрокартон с усиленными углами.",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
-      client: "Nova Industries",
-      project: "White-label платформа",
-      metric: "Онбординг в 3 раза быстрее",
-      description: "Создали масштабируемое white-label решение для обслуживания 50+ клиентов одновременно.",
+      client: "Алкогольный дистрибьютор",
+      project: "Гофрорешётки для бутылок",
+      metric: "0% боя при транспортировке",
+      description: "Изготовили решётки из пятислойного гофрокартона для перевозки бутылок. Полностью исключили бой продукции при доставке.",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
-      client: "Quantum Dynamics",
-      project: "Оптимизация e-commerce",
-      metric: "Рост выручки на 85%",
-      description: "Оптимизировали checkout и внедрили конверсионные паттерны дизайна по всей платформе.",
+      client: "Производство косметики",
+      project: "Упаковка сложной высечки",
+      metric: "Срок изготовления — 5 дней",
+      description: "Создали фигурные короба с ручками и окошками из микрогофрокартона для премиальной линейки продуктов.",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
-      client: "Alpine Ventures",
-      project: "Перезапуск сайта агентства",
-      metric: "200+ лидов в месяц",
-      description: "Стратегический редизайн для лидогенерации с интеграцией CRM и автоматизацией.",
+      client: "Логистическая компания",
+      project: "Пятислойные короба для склада",
+      metric: "10 тонн в неделю",
+      description: "Наладили регулярные поставки прочных транспортных коробов. Выдерживают статическую нагрузку при штабелировании на складе.",
       image: "/placeholder.svg?height=400&width=600",
     },
   ]
@@ -52,7 +52,7 @@ export function CaseStudiesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Реальные результаты агентств, с которыми мы работали для роста и конверсий.
+            Примеры задач, которые мы решили для наших клиентов из разных отраслей.
           </motion.p>
         </div>
 
